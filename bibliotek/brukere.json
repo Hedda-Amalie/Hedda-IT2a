@@ -1,0 +1,16 @@
+[
+    {
+        "forNavn": "Hedda",
+        "etterNavn": "Johansen",
+        "ID": "d927a485-0d8b-429e-ab25-3501dd871334",
+        "e-post": "hedjoh@kvn.no",
+        "tlf": "45662740"
+    },
+    {
+        "forNavn": "brage",
+        "etterNavn": "nilsen",
+        "ID": "5b4a4a94-c555-4444-bf8c-1001165530fe",
+        "e-post": "brageoliver@gmail.com",
+        "tlf": "48129975"
+    }
+]

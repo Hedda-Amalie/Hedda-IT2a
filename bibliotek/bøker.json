@@ -1,0 +1,263 @@
+[
+    {
+        "ID": "f4dcc091-4998-46ff-9051-e3ea5b061e79",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J. K. Rowling",
+        "publisher": "Bloomsbury",
+        "category": "fantasy",
+        "publication_year": 1997,
+        "rented": true
+    },
+    {
+        "ID": "e0a52aab-2bb2-496c-a148-c5722973d80c",
+        "title": "The Hobbit",
+        "author": "J. R. R. Tolkien",
+        "publisher": "HarperCollins",
+        "category": "fantasy",
+        "publication_year": 1937,
+        "rented": false
+    },
+    {
+        "ID": "ae6bda0e-f204-45d8-8035-917b35073e96",
+        "title": "1984",
+        "author": "George Orwell",
+        "publisher": "Secker & Warburg",
+        "category": "dystopian",
+        "publication_year": 1949,
+        "rented": false
+    },
+    {
+        "ID": "eb5cdd31-fa7c-4e8d-ad38-3da4186d85ce",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "publisher": "J.B. Lippincott & Co.",
+        "category": "historical fiction",
+        "publication_year": 1960,
+        "rented": true
+    },
+    {
+        "ID": "345cc851-9892-422e-8b4a-df34fab16112",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton",
+        "category": "romance",
+        "publication_year": 1813,
+        "rented": false
+    },
+    {
+        "ID": "3c0e192f-6827-4357-b4c8-016f9325ba39",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "publisher": "Charles Scribner's Sons",
+        "category": "fiction",
+        "publication_year": 1925,
+        "rented": true
+    },
+    {
+        "ID": "73b1f244-6184-4ce3-a326-b374c8f96800",
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "publisher": "Harper & Brothers",
+        "category": "adventure",
+        "publication_year": 1851,
+        "rented": false
+    },
+    {
+        "ID": "64597976-a533-4dcb-8cab-3ca590f39fe8",
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "publisher": "The Russian Messenger",
+        "category": "historical fiction",
+        "publication_year": 1869,
+        "rented": true
+    },
+    {
+        "ID": "a99ab072-ce31-4e4b-aaf3-7c3501c0787a",
+        "title": "The Catcher in the Rye",
+        "author": "J. D. Salinger",
+        "publisher": "Little, Brown and Company",
+        "category": "fiction",
+        "publication_year": 1951,
+        "rented": false
+    },
+    {
+        "ID": "2e419aba-649d-4cdb-bf7a-bcbef7934d36",
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "publisher": "Chatto & Windus",
+        "category": "dystopian",
+        "publication_year": 1932,
+        "rented": true
+    },
+    {
+        "ID": "0eef6604-4b82-4325-a735-c19a6080df3a",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "author": "J. R. R. Tolkien",
+        "publisher": "Allen & Unwin",
+        "category": "fantasy",
+        "publication_year": 1954,
+        "rented": false
+    },
+    {
+        "ID": "8efd26d1-d333-43be-8cbe-9b11807d36c7",
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "publisher": "HarperOne",
+        "category": "adventure",
+        "publication_year": 1988,
+        "rented": true
+    },
+    {
+        "ID": "8ff887d2-2b6e-43b4-bb3b-099d2afdda75",
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "publisher": "Doubleday",
+        "category": "mystery",
+        "publication_year": 2003,
+        "rented": false
+    },
+    {
+        "ID": "77186df8-f2db-417b-b686-1340b7599298",
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "publisher": "Riverhead Books",
+        "category": "historical fiction",
+        "publication_year": 2003,
+        "rented": true
+    },
+    {
+        "ID": "91fa6711-c839-43dc-947b-4622c6b12070",
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "publisher": "Ballantine Books",
+        "category": "dystopian",
+        "publication_year": 1953,
+        "rented": false
+    },
+    {
+        "ID": "9f43837d-9db9-4118-8ea6-13b6754102d5",
+        "title": "Jane Eyre",
+        "author": "Charlotte Bront\u00eb",
+        "publisher": "Smith, Elder & Co.",
+        "category": "romance",
+        "publication_year": 1847,
+        "rented": false
+    },
+    {
+        "ID": "4b6526a6-faba-476b-a666-6b901a1c56fa",
+        "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "author": "C. S. Lewis",
+        "publisher": "Geoffrey Bles",
+        "category": "fantasy",
+        "publication_year": 1950,
+        "rented": true
+    },
+    {
+        "ID": "2a5c080a-e00a-41f3-91a3-11f4cc4fe7a3",
+        "title": "Wuthering Heights",
+        "author": "Emily Bront\u00eb",
+        "publisher": "Thomas Cautley Newby",
+        "category": "gothic fiction",
+        "publication_year": 1847,
+        "rented": false
+    },
+    {
+        "ID": "c9d43f88-d26e-4125-a09c-52376f00c37a",
+        "title": "The Shining",
+        "author": "Stephen King",
+        "publisher": "Doubleday",
+        "category": "horror",
+        "publication_year": 1977,
+        "rented": true
+    },
+    {
+        "ID": "fae10162-1a45-4286-bd2d-668bfc888a02",
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "publisher": "Scholastic Press",
+        "category": "dystopian",
+        "publication_year": 2008,
+        "rented": false
+    },
+    {
+        "ID": "7fc5e2fc-9cc1-4c87-8f3d-ff4041276574",
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "publisher": "Alfred A. Knopf",
+        "category": "post-apocalyptic",
+        "publication_year": 2006,
+        "rented": true
+    },
+    {
+        "ID": "e0a561a6-7409-45fd-be25-80175d9784f0",
+        "title": "Slaughterhouse-Five",
+        "author": "Kurt Vonnegut",
+        "publisher": "Delacorte Press",
+        "category": "science fiction",
+        "publication_year": 1969,
+        "rented": false
+    },
+    {
+        "ID": "170809f2-2358-4349-8677-ad7b5f4b475d",
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "publisher": "McClelland & Stewart",
+        "category": "dystopian",
+        "publication_year": 1985,
+        "rented": true
+    },
+    {
+        "ID": "d41deb1b-4a2e-4ce8-9e60-dbd2e15ff844",
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "publisher": "The Russian Messenger",
+        "category": "psychological fiction",
+        "publication_year": 1866,
+        "rented": false
+    },
+    {
+        "ID": "f5fce7ac-0124-4048-9e7d-99abacdce182",
+        "title": "A Game of Thrones",
+        "author": "George R. R. Martin",
+        "publisher": "Bantam Spectra",
+        "category": "fantasy",
+        "publication_year": 1996,
+        "rented": false
+    },
+    {
+        "ID": "d2adad9e-81a0-488a-bd96-57227dbcafe4",
+        "title": "The Name of the Wind",
+        "author": "Patrick Rothfuss",
+        "publisher": "DAW Books",
+        "category": "fantasy",
+        "publication_year": 2007,
+        "rented": true
+    },
+    {
+        "ID": "1c41e26d-d88c-42fb-9524-11158fb20f19",
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "publisher": "Picador",
+        "category": "historical fiction",
+        "publication_year": 2005,
+        "rented": false
+    },
+    {
+        "ID": "92ac4fc8-87ba-4b35-9b3e-bfe5b494c494",
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel Garc\u00eda M\u00e1rquez",
+        "publisher": "Harper & Row",
+        "category": "magical realism",
+        "publication_year": 1967,
+        "rented": true
+    },
+    {
+        "ID": "e6406dd8-d7a0-41d1-bd6b-060135fcee01",
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "publisher": "Norstedts F\u00f6rlag",
+        "category": "crime fiction",
+        "publication_year": 2005,
+        "rented": false
+    }
+]

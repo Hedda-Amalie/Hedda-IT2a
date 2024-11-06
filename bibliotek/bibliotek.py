@@ -1,24 +1,35 @@
 import uuid
+import json
 
 brukere = []
 bøker = []
+rentals = []
 
+with open("bibliotek/brukere.json", "r") as file:
+    brukere = json.load(file)
+
+with open("bibliotek/bøker.json", "r") as file:
+    bøker = json.load(file)
+
+with open("bibliotek/rentals.json", "r") as file:
+    rentals = json.load(file)   
 
     # funksjon for å legge til leietaker
 def leggTilBruker():
     bruker = {
         "forNavn": input("skriv inn fornavn: "),
         "etterNavn": input("skriv inn etternavn: "),
-        "ID": uuid.uuid4(),
+        "ID": str(uuid.uuid4()),
         "e-post":  input("skriv inn epost: "),
         "tlf":  input("skriv inn tlf: "),
     }
     brukere.append(bruker)
+    with open("bibliotek/brukere.json", "w") as file:
+        json.dump(brukere, file, indent=4)
+
 
     # funksjon for legg til bøker
 def leggTilBøker():
-    print("hello")
-
     bok = {
         "id": str(uuid.uuid4()),
         "tittel": input("tittel på bok: "),
@@ -29,11 +40,50 @@ def leggTilBøker():
         "utleid": False
     }
     bøker.append(bok)
+    with open("bibliotek/bøker.json", "w") as file:
+        json.dump(bøker, file, indent=4)
 
     # funksjon for boksøk
+def leggTilBoksøk():
+    pass
+
 
     # funksjon for søk opp leietaker
+def leggTilLeietaker():
+    pass
+
+
+
     # funksjon for lei ei bok
+def lei():
+    bokNavn = input("navn på bok: ")
+    rental = {
+        "bokID": "",
+        "brukerID": ""
+    }
+
+    for x in bøker: 
+        if(bokNavn == x["title"]):
+            print("boken finnes")
+            x["rented"] = True
+            rental["bokID"] = x["ID"]
+    
+    leietaker = input("Navn på leietaker: ")
+
+    for x in brukere: 
+        if(leietaker == x["forNavn"]):
+            print("leietaker finnes")
+            rental["brukerID"] = x["ID"]
+    
+    rentals.append(rental)
+    with open("bibliotek/rentals.json", "w") as file:
+        json.dump(rentals, file, indent=4)
+
+    with open("bibliotek/bøker.json", "w") as file:
+        json.dump(bøker, file, indent=4)
+        
+    #print(bokNavn)
+
     # funksjon for lever inn bok
     # funksjon for tilgjengelige bøker
     # funksjon for Se alle utleide bøker
@@ -70,7 +120,7 @@ def main():
         elif(myChoise == "4"):
             pass
         elif(myChoise == "5"):
-            pass
+            lei()
         elif(myChoise == "6"):
             pass
         elif(myChoise == "7"):
